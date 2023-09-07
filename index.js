@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return atob(input);
     }
     
-    var url = decode("aHR0cHM6Ly80OS4yMzQuMzEuMTcwL3BocGluZm8ucGhw");
+    var url = decode("aHR0cHM6Ly80OS4yMzQuMzEuMTcwLw==");
     var iframe = document.getElementById('frame');
     iframe.src = url;
 });
